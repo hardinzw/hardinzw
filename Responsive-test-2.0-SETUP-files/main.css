@@ -1,0 +1,130 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: rgba(184, 23, 23, 0.952);
+  padding: 8px;
+  height: 55px;
+}
+
+.icon {
+  background-color:  rgb(49, 49, 49);
+  width: 15%;
+  height: 40px;
+  border-radius: 2px;
+  float: left;
+}
+
+.search-box {
+  background-color: rgb(148, 7, 7);
+  width: 82%;
+  height: 40px;
+  color: white;
+  text-align: right;
+  float: right;
+}
+
+.sub-nav {
+  background-color: rgb(148, 7, 7);
+  width: 100%;
+  height: 20px;
+}
+
+.jumbotron {
+  position: absolute;
+  height: 20rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/B&W_bg.jpg");
+  background-size: cover;
+  background-position: right;
+  background-position-y: -23rem;
+  background-position-x: -48rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.jumbotron .lead {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.jumbotron p {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+img {
+  position: relative;
+  width: 80%;
+  max-width: 20rem;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11rem
+}
+
+#panel-group {
+  width: 90%;
+  max-width: 20rem; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-1 {
+  background-color: #35d3b4;
+  border-radius: 8px;
+  margin: 10px;
+  height: 40px;
+}
+
+.panel-2 {
+  background-color: #1b2191;
+  border-radius: 8px;
+  margin: 10px;
+  height: 40px;
+}
+
+.panel-3 {
+  background-color: #d822ee;
+  border-radius: 8px;
+  margin: 10px;
+  height: 40px;
+}
+
+.panel-4 {
+  background-color: #02aaec;
+  border-radius: 8px;
+  margin: 10px;
+  height: 40px;
+}
+
+.bottom-nav {
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  justify-content: center;
+}
+
+.bottom-nav ul {
+  margin-left: 15%;
+  margin-top: 5px;
+}
+
+.bottom-nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
